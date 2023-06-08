@@ -42,10 +42,10 @@ def send_to_chat(update: Update, context):
             if command_mode == "reply":
                 context.bot.send_message(chat_id=reply_id, text=reply_message)
                 reply = f"Message received from {sender_name} (ID: {sender_id}):\n\n{message}"
-                context.bot.send_message(chat_id=admin_chat_id, text=reply)
+                context.bot.send_message(chat_id=chat_id, text=reply)
             else:
                 reply = f"Message received from {sender_name} (ID: {sender_id}):\n\n{message}"
-                context.bot.send_message(chat_id=admin_chat_id, text=reply)
+                context.bot.send_message(chat_id=chat_id, text=reply)
         else:
             context.bot.send_message(chat_id=update.effective_chat.id,
                                      text="Invalid command format. Please use the correct format.")
