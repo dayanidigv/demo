@@ -15,12 +15,12 @@ def welcomeMessage(update: Update, context):
     Hello {first_name}! 🎉
     Welcome to our community!
 
-    Your Chat ID is {chat_id}.
+    Your Chat ID is {update.effective_chat.id}.
 
     If you need assistance or have any questions, feel free to ask. 😊
     Enjoy your time and have a wonderful day! 😎
 
-    Sign up : https://telechatbot.github.io/?type=signup&chatid={chat_id}  to access additional features with a 4-digit PIN.
+    Sign up : https://telechatbot.github.io/?type=signup&chatid={update.effective_chat.id}  to access additional features with a 4-digit PIN.
 
     Set your PIN to login easily and securely. Just 4 digits are enough!
 
