@@ -77,5 +77,5 @@ dispatcher.add_handler(start)
 dispatcher.add_handler(MessageHandler(Filters.text, send_to_chat))
 dispatcher.add_handler(reply_command)
 
-print("Connected...")
+print("Connected....")
 updater.start_polling()
