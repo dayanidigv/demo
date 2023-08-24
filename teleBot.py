@@ -14,7 +14,7 @@ def welcomeMessage(update: Update, context):
         text=f"""
     Hello {first_name}! 🎉
     Welcome to our community!
-
+ 
     Your Chat ID is {update.effective_chat.id}.
 
     If you need assistance or have any questions, feel free to ask. 😊
