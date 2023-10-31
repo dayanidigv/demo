@@ -1,6 +1,6 @@
 from telegram import *
 from telegram.ext import *
-import requests as r
+import requests as r 
 bot_token = "5830822420:AAGvhHGM5UIEOKo6hUa4lPQkwoAdnW8i5eQ"
 chat_id = "1221832086"
 #{'first_name': 'AFPLUAAS', 'username': 'AFPLUAASbot', 'supports_inline_queries': False, 'id': 5584328065, 'can_read_all_group_messages': False, 'can_join_groups': True, 'is_bot': True}
