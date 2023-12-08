@@ -27,7 +27,6 @@ def welcomeMessage(update: Update, context):
     Remember your PIN for convenient logins. 💻📲
 
     We appreciate your support! 🙏
-
     """
     )
 
