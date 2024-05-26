@@ -5,7 +5,7 @@ bot_token = "5830822420:AAGvhHGM5UIEOKo6hUa4lPQkwoAdnW8i5eQ"
 chat_id = "1221832086"
 #{'first_name': 'AFPLUAAS', 'username': 'AFPLUAASbot', 'supports_inline_queries': False, 'id': 5584328065, 'can_read_all_group_messages': False, 'can_join_groups': True, 'is_bot': True}
 
-def welcomeMessage(update: Update, context):
+def welcomeMessage(update: Update, context): 
     first_name = update.effective_chat.first_name
     last_name = update.effective_chat.last_name 
     bot.send_message(chat_id="1221832086", text=f"New User for Telechat Bot \n User Name {first_name } {last_name}\n User ID {update.effective_chat.id} ")
