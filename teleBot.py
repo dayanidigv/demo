@@ -28,7 +28,7 @@ def welcomeMessage(update: Update, context):
 
     We appreciate your support! 🙏
     """
-    )
+    ) 
 
 def send_to_chat(update: Update, context):
     message = update.message.text
