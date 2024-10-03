@@ -5,6 +5,7 @@ bot_token = "5830822420:AAF6fVPrYyJJ2_0_fYT3Fr7_Wrs_ruvIEDg"
 chat_id = "1221832086"
 #{'first_name': 'AFPLUAAS', 'username': 'AFPLUAASbot', 'supports_inline_queries': False, 'id': 5584328065, 'can_read_all_group_messages': False, 'can_join_groups': True, 'is_bot': True}
 
+
 def welcomeMessage(update: Update, context): 
     first_name = update.effective_chat.first_name
     last_name = update.effective_chat.last_name 
